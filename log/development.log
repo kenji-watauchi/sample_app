@@ -3222,3 +3222,268 @@ Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-19 14:51:45 +0900
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 14:51:45 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:57:25 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (9.1ms)
+  Rendered layouts/_shim.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.7ms)
+Completed 200 OK in 462ms (Views: 461.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2014-11-19 16:57:26 +0900
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/application.rb:97:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.2ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (7.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (49.5ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.5ms)
+  Rendered layouts/_shim.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (0.9ms)
+  Rendered layouts/_footer.html.erb (0.6ms)
+Completed 200 OK in 71ms (Views: 69.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/signup" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+Processing by UsersController#new as HTML
+  Rendered users/new.html.erb within layouts/application (0.4ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 62ms (Views: 61.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:29 +0900
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (13.2ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 97ms (Views: 96.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+Processing by StaticPagesController#home as HTML
+  Rendered static_pages/home.html.erb within layouts/application (5.5ms)
+  Rendered layouts/_shim.html.erb (0.1ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 67ms (Views: 66.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/static_pages.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/custom.css?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/static_pages.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+
+Started GET "/images/rails.png" for 127.0.0.1 at 2014-11-19 16:57:53 +0900
+
+ActionController::RoutingError (No route matches [GET] "/images/rails.png"):
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/rack/logger.rb:38:in `call_app'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/rack/logger.rb:20:in `block in call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/tagged_logging.rb:26:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/tagged_logging.rb:68:in `tagged'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/rack/logger.rb:20:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/methodoverride.rb:21:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/runtime.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/activesupport-4.0.5/lib/active_support/cache/strategy/local_cache.rb:83:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/static.rb:64:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/sendfile.rb:112:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/engine.rb:511:in `call'
+  vendor/bundle/ruby/2.0.0/gems/railties-4.0.5/lib/rails/application.rb:97:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/lock.rb:17:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/content_length.rb:14:in `call'
+  vendor/bundle/ruby/2.0.0/gems/rack-1.5.2/lib/rack/handler/webrick.rb:60:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /System/Library/Frameworks/Ruby.framework/Versions/2.0/usr/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered vendor/bundle/ruby/2.0.0/gems/actionpack-4.0.5/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (22.9ms)
+  [1m[36m (2.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.5ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to CreateUsers (20141119105613)
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141119105613"]]
+  [1m[36m (1.7ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36mSQL (324.8ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)[0m  [["created_at", Wed, 19 Nov 2014 11:24:26 UTC +00:00], ["email", "hoge@act.com"], ["name", "ken"], ["updated_at", Wed, 19 Nov 2014 11:24:26 UTC +00:00]]
+  [1m[35m (0.1ms)[0m  RELEASE SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mSAVEPOINT active_record_1[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "users" ("created_at", "email", "name", "updated_at") VALUES (?, ?, ?, ?)  [["created_at", Wed, 19 Nov 2014 11:32:09 UTC +00:00], ["email", "i@act.com"], ["name", "sugu"], ["updated_at", Wed, 19 Nov 2014 11:32:09 UTC +00:00]]
+  [1m[36m (0.1ms)[0m  [1mRELEASE SAVEPOINT active_record_1[0m
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", 2]]
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", 1]]
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" WHERE "users"."name" = 'ken' LIMIT 1
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (1.6ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime) [0m
+  [1m[35m (1.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (1.4ms)[0m  [1mCREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")[0m
+  [1m[35m (0.1ms)[0m  SELECT version FROM "schema_migrations"
+  [1m[36m (1.4ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141119105613')[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.3ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  SAVEPOINT active_record_1
+  [1m[36m (0.1ms)[0m  [1mROLLBACK TO SAVEPOINT active_record_1[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddIndexToUsersEmail (20141120070608)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (36.1ms)[0m  [1mCREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141120070608"]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Migrating to AddPasswordDigestToUsers (20141120075800)
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mALTER TABLE "users" ADD "password_digest" varchar(255)[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "schema_migrations" ("version") VALUES (?)  [["version", "20141120075800"]]
+  [1m[36m (5.1ms)[0m  [1mcommit transaction[0m
+  [1m[35mActiveRecord::SchemaMigration Load (0.1ms)[0m  SELECT "schema_migrations".* FROM "schema_migrations"
+  [1m[36m (5.4ms)[0m  [1mCREATE TABLE "users" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "email" varchar(255), "created_at" datetime, "updated_at" datetime, "password_digest" varchar(255)) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX "index_users_on_email" ON "users" ("email")
+  [1m[36m (1.4ms)[0m  [1mCREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) [0m
+  [1m[35m (1.2ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.1ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141120075800')
+  [1m[36m (2.8ms)[0m  [1mINSERT INTO "schema_migrations" (version) VALUES ('20141119105613')[0m
+  [1m[35m (1.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20141120070608')
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mUser Exists (0.2ms)[0m  SELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('mhartl@example.com') LIMIT 1
+Binary data inserted for `string` type on column `password_digest`
+  [1m[36mSQL (5.6ms)[0m  [1mINSERT INTO "users" ("created_at", "email", "name", "password_digest", "updated_at") VALUES (?, ?, ?, ?, ?)[0m  [["created_at", Thu, 20 Nov 2014 09:43:10 UTC +00:00], ["email", "mhartl@example.com"], ["name", "Michael Hartl"], ["password_digest", "$2a$10$TXJva3i563zLWpvjzVJ2vu46330QmZHlQid1Vr456qSc/03UFZS92"], ["updated_at", Thu, 20 Nov 2014 09:43:10 UTC +00:00]]
+  [1m[35m (5.4ms)[0m  commit transaction
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."email" = 'mhartl@example.com' LIMIT 1[0m
