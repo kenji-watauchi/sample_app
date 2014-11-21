@@ -1,5 +1,6 @@
 SampleApp::Application.routes.draw do
-  get "users/new"
+  resources :users
+  #resources :users が記載されると、get "users/new"の働きを担うので、これはいらなくなる
 
   root  'static_pages#home'
   match '/help',    to: 'static_pages#help',    via: 'get'#matchのコードで自動的にコントローラとビューで使用する名前付きルートを生成
