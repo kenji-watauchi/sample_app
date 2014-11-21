@@ -18,3 +18,7 @@
  .idea
  .secret
  #パブリックレポジトリで公開するなら.secretは絶対わすれるな！
+
+ # bundler state
+  /.bundle
+  /vendor/bundle/
